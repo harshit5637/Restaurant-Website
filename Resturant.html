@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRM Restaurant</title>
+    
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=" css/style.css">
+<style>
+    /* css Reset */
+    body{ 
+        color:white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin:0px;
+        padding:0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: change 35s infinite ease-in-out; 
+        
+    }
+
+    @keyframes change 
+{
+    0%
+    {
+        background-image: url(img/Background3.png);
+    }
+    20%
+    {
+        background-image: url(img/Background1.PNG);
+    }
+    40%
+    {
+        background-image: url(img/Bg.jpg);
+    }
+    60%
+    {
+        background-image: url(img/bg2.jpg);
+    }
+    80%
+    {
+        background-image: url(img/bg4.jpg);
+    }
+    100%
+    {
+        background-image: url(img/bg6.jpg);
+    }
+
+}
+
+    .left{
+         display: inline-block;
+         position: absolute;
+         left:34px;
+         top:20px;
+
+
+
+    }
+    .left img{
+       float: right;
+        width: 80px;
+        margin: auto 50px ;
+        border-radius: 20px;
+    }
+    .mid{
+        display:block;
+        width:40%;
+        margin: 20px auto;
+        
+
+    }
+    .right{
+        position: absolute;
+        right:34px;
+        top:20px;
+        display: inline-block;
+        
+
+    }
+    .navbar{
+        display: inline-block;
+        
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 24px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding:34px 23px ;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: turquoise;
+    }
+    .bts{
+        margin: 0px 9px;
+        padding: 4px 14px; 
+        background-color: black;
+        color:crimson;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .bts:hover{
+        background-color:silver;
+    }
+    .quote{
+        display: block;
+        margin: 250px auto;
+        font-size: 55px;
+        color:white;
+        font-family: 'Dancing Script', cursive;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/HRM logo 2.PNG" alt="">
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><b><a href="Resturant.html" class="active">Home</a></b></li>
+                <li><b><a href="About Us.html">About Us</a></b></li>
+                <li><b><a href="menu.html">Menu</a></b></li>
+                <li><b><a href="Reserve table.html">Reserve a Table</a></b></li>
+            </ul>
+
+       </div>
+       <!-- right box for button -->
+        <div class="right">
+            <button class="bts">Call Us</button>
+            <button class="bts">Email Us</button>
+
+        </div>
+        <div class="mid">
+            <ul class="quote">
+                <p><b>Nothing Brings People Together like Good Food!!</p></b>
+            </ul>
+            </div>
+        </header>
+    
+</body>
+</html>
