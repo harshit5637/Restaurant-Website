@@ -179,10 +179,10 @@ if(isset($_GET['submit'])){
         <!-- Mid box for navbar -->
         <div class="mid">
             <ul class="navbar">
-                <li><a href="Resturant.html">Home</a></li>
+                <li><a href="Index.html">Home</a></li>
                 <li><a href="About Us.html">About Us</a></li>
                 <li><a href="menu.html">Menu</a></li>
-                <li><a href="Reserve table.html" class="active">Reserve a Table</a></li>
+                <li><a href="Reserve_table.html" class="active">Reserve a Table</a></li>
             </ul>
         </div>
 
